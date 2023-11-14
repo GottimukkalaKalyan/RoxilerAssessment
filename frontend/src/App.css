@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(218, 218, 218);
+  padding-bottom: 100px;
+}
+.sub-container{
+  /* border: 2px solid red; */
+  width: 100%;
+  max-width: 1100px;
+}
+.dashboard-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.search-and-month-container{
+  /* background-color: green; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 10px;
+}
+.table-container{
+  background-color: pink;
+  width: 100%;
+}
+.transaction-heading{
+  font-size: 20px;
+  margin: 0px;
+  
+}
+.heading-card{
+  background-color: white;
+  height: 170px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+.hhhh{
+  margin: 0px;
+  padding: 0px;
+  border: 2px solid red;
+}
+.input-field{
+  width: 100%;
+  max-width: 200px !important;
+  background-color: rgb(191, 169, 27);
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+  font-weight: 600;
+  padding-left: 20px;
+}
+.next-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 0px;
+  /* border: 2px solid red; */
+}
+.next-previous{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.button-next{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: 600;
+  margin: 0px;
+}
+.active-para{
+  margin: 0px;
+}
+.product-image{
+  width: 100px;
+  height: 100px;
+}
+.no-data-para{
+  text-align: center;
+  /* border: 2px solid red; */
+}
+.no-data-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.static-container{
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.static-and-dropdown{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.static-drop{
+  width: 200px;
+}
+.static-card-container{
+  width: 400px;
+  align-self: flex-start;
+  background-color: rgb(239, 204, 121);
+  padding: 20px;
+}
+.item-1{
+  display: flex;
+  width: 100%;
+  /* border: 2px solid red; */
+  justify-content: space-between;
+}
